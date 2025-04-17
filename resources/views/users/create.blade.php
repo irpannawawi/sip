@@ -32,7 +32,7 @@
                                 <label for="role">Role</label>
                                 <select name="role" class="form-control" required>
                                     <option {{ old('role')=='admin'?'selected':'' }} value="admin">Admin</option>
-                                    <option {{ old('role')=='operator'?'selected':'' }} value="operator">Operator</option>
+                                    <option {{ old('role')=='user'?'selected':'' }} value="user">User</option>
                                 </select>
                             </div>
                         </div>
